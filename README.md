@@ -11,4 +11,5 @@ timed-tape
 var tape = require('./timed-tape')(require('tape'))
 ```
 
-Returns a tape instance that will print the time that each test took
+Returns a tape instance that will print the time that each test took. So then you can measure how much your time your tests take accross implementations.
+
